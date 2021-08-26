@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    color: white;
+    background-color: #9fc5f8;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.cities {
+    display: flex;
+    align-items: center;
+}
+
+.citynm {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.bigdaddy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    font-size: 130%;
+    margin: 20px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+#tempgroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#temptype {
+    margin: 5px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.row {
+    font-size: 130%;
+    display: flex;
+}
+
+.card {
+    margin: 10px;
+    width: 135px;
+    height: 235px;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.weatherpic {
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.temps {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hot {
+    color: #cf2a27;
+}
+
+.cold {
+    color: #2d79e3;
+}
+
+/* Cookies Bar */
+
+#cookiebar {
+    margin: 5px;
+    width: 600px;
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+#textbox {
+    width: 400px;
+}
+
+#acceptbtn {
+    border: 3px solid black;
+    background-color: #9fc5f8;
+    box-shadow: 2px 2px black;
+}
